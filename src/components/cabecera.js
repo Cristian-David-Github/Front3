@@ -8,12 +8,12 @@ import React from 'react'
 //    h1
 //    p > span     (el span mostrará la cantidad recibida por props)
 
-export default function Cabecera({count}) {
+export default function Cabecera({itemsInCart}) {
   
   return (
     <header>
         <h1>Shopping Cart</h1>
-        <p>You have selected <span>{count}</span>products</p>
+        <p>You have selected <span>{itemsInCart}</span> products</p>
     </header>
   )
 }
